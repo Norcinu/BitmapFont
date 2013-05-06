@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01945861716141600F4003D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B01945851716141600F4003D /* main.cpp */; };
+		B01945881716141600F4003D /* B.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B01945871716141600F4003D /* B.1 */; };
+		B019458F1716151200F4003D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019458E1716151200F4003D /* Cocoa.framework */; };
+		B01945911716151900F4003D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01945901716151900F4003D /* OpenGL.framework */; };
+		B0194593171615EB00F4003D /* libSDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0194592171615EB00F4003D /* libSDL.a */; };
+		B0194595171615ED00F4003D /* libSDLmain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0194594171615ED00F4003D /* libSDLmain.a */; };
+		B028493D171752D600238482 /* Visualisation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B028493B171752D600238482 /* Visualisation.cpp */; };
+		B028494317175E6D00238482 /* maths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B028493E17175E6D00238482 /* maths.cpp */; };
+		B028494417175E6D00238482 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B028494017175E6D00238482 /* Sprite.cpp */; };
+		B05365E5171A127200BA0FB4 /* CharacterSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B05365E3171A127200BA0FB4 /* CharacterSet.cpp */; };
+		B058FDA4171AEF5A00329898 /* BitmapFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B058FDA2171AEF5A00329898 /* BitmapFont.cpp */; };
+		B088EA4A1718BE60000CD540 /* libSDL_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B088EA491718BE60000CD540 /* libSDL_image.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B01945801716141600F4003D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B01945881716141600F4003D /* B.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B01945821716141600F4003D /* B */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = B; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01945851716141600F4003D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B01945871716141600F4003D /* B.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = B.1; sourceTree = "<group>"; };
+		B019458E1716151200F4003D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B01945901716151900F4003D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B0194592171615EB00F4003D /* libSDL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL.a; path = ../../../../../usr/local/Cellar/sdl/1.2.15/lib/libSDL.a; sourceTree = "<group>"; };
+		B0194594171615ED00F4003D /* libSDLmain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDLmain.a; path = ../../../../../usr/local/Cellar/sdl/1.2.15/lib/libSDLmain.a; sourceTree = "<group>"; };
+		B028493B171752D600238482 /* Visualisation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Visualisation.cpp; sourceTree = "<group>"; };
+		B028493C171752D600238482 /* Visualisation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visualisation.h; sourceTree = "<group>"; };
+		B028493E17175E6D00238482 /* maths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maths.cpp; sourceTree = "<group>"; };
+		B028493F17175E6D00238482 /* maths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maths.h; sourceTree = "<group>"; };
+		B028494017175E6D00238482 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
+		B028494117175E6D00238482 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		B028494217175E6D00238482 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		B028494517175EC200238482 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B028494617175F2000238482 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		B05365E3171A127200BA0FB4 /* CharacterSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CharacterSet.cpp; path = ../CharacterSet.cpp; sourceTree = "<group>"; };
+		B05365E4171A127200BA0FB4 /* CharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterSet.h; path = ../CharacterSet.h; sourceTree = "<group>"; };
+		B058FDA2171AEF5A00329898 /* BitmapFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitmapFont.cpp; sourceTree = SOURCE_ROOT; };
+		B058FDA3171AEF5A00329898 /* BitmapFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapFont.h; sourceTree = SOURCE_ROOT; };
+		B088EA491718BE60000CD540 /* libSDL_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL_image.a; path = ../../../../../usr/local/Cellar/sdl_image/1.2.12/lib/libSDL_image.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B019457F1716141600F4003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01945911716151900F4003D /* OpenGL.framework in Frameworks */,
+				B019458F1716151200F4003D /* Cocoa.framework in Frameworks */,
+				B0194593171615EB00F4003D /* libSDL.a in Frameworks */,
+				B0194595171615ED00F4003D /* libSDLmain.a in Frameworks */,
+				B088EA4A1718BE60000CD540 /* libSDL_image.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01945791716141600F4003D = {
+			isa = PBXGroup;
+			children = (
+				B088EA491718BE60000CD540 /* libSDL_image.a */,
+				B0194594171615ED00F4003D /* libSDLmain.a */,
+				B0194592171615EB00F4003D /* libSDL.a */,
+				B01945901716151900F4003D /* OpenGL.framework */,
+				B019458E1716151200F4003D /* Cocoa.framework */,
+				B01945841716141600F4003D /* B */,
+				B01945831716141600F4003D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B01945831716141600F4003D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01945821716141600F4003D /* B */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01945841716141600F4003D /* B */ = {
+			isa = PBXGroup;
+			children = (
+				B05365E6171A128500BA0FB4 /* Text */,
+				B028493E17175E6D00238482 /* maths.cpp */,
+				B028493F17175E6D00238482 /* maths.h */,
+				B028494517175EC200238482 /* Common.h */,
+				B028494617175F2000238482 /* Rectangle.h */,
+				B028494017175E6D00238482 /* Sprite.cpp */,
+				B028494117175E6D00238482 /* Sprite.h */,
+				B028494217175E6D00238482 /* StringUtils.h */,
+				B01945851716141600F4003D /* main.cpp */,
+				B028493B171752D600238482 /* Visualisation.cpp */,
+				B028493C171752D600238482 /* Visualisation.h */,
+				B01945871716141600F4003D /* B.1 */,
+			);
+			path = B;
+			sourceTree = "<group>";
+		};
+		B05365E6171A128500BA0FB4 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				B058FDA2171AEF5A00329898 /* BitmapFont.cpp */,
+				B058FDA3171AEF5A00329898 /* BitmapFont.h */,
+				B05365E3171A127200BA0FB4 /* CharacterSet.cpp */,
+				B05365E4171A127200BA0FB4 /* CharacterSet.h */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01945811716141600F4003D /* B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B019458B1716141600F4003D /* Build configuration list for PBXNativeTarget "B" */;
+			buildPhases = (
+				B019457E1716141600F4003D /* Sources */,
+				B019457F1716141600F4003D /* Frameworks */,
+				B01945801716141600F4003D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = B;
+			productName = B;
+			productReference = B01945821716141600F4003D /* B */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B019457A1716141600F4003D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Steven Gleed";
+			};
+			buildConfigurationList = B019457D1716141600F4003D /* Build configuration list for PBXProject "B" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B01945791716141600F4003D;
+			productRefGroup = B01945831716141600F4003D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01945811716141600F4003D /* B */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B019457E1716141600F4003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01945861716141600F4003D /* main.cpp in Sources */,
+				B028493D171752D600238482 /* Visualisation.cpp in Sources */,
+				B028494317175E6D00238482 /* maths.cpp in Sources */,
+				B028494417175E6D00238482 /* Sprite.cpp in Sources */,
+				B05365E5171A127200BA0FB4 /* CharacterSet.cpp in Sources */,
+				B058FDA4171AEF5A00329898 /* BitmapFont.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B01945891716141600F4003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B019458A1716141600F4003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B019458C1716141600F4003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/sdl/1.2.15/include/sdl,
+					/usr/local/Cellar/sdl_image/1.2.12/include/sdl,
+					/usr/local/Cellar/boost/1.53.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/sdl/1.2.15/lib,
+					/usr/local/Cellar/sdl_image/1.2.12/lib,
+					/usr/local/Cellar/boost/1.53.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B019458D1716141600F4003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/sdl/1.2.15/include/sdl,
+					/usr/local/Cellar/sdl_image/1.2.12/include/sdl,
+					/usr/local/Cellar/boost/1.53.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/sdl/1.2.15/lib,
+					/usr/local/Cellar/sdl_image/1.2.12/lib,
+					/usr/local/Cellar/boost/1.53.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B019457D1716141600F4003D /* Build configuration list for PBXProject "B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01945891716141600F4003D /* Debug */,
+				B019458A1716141600F4003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B019458B1716141600F4003D /* Build configuration list for PBXNativeTarget "B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B019458C1716141600F4003D /* Debug */,
+				B019458D1716141600F4003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B019457A1716141600F4003D /* Project object */;
+}
